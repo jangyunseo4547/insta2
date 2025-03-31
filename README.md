@@ -7,3 +7,11 @@
 
 ## admin에 model 등록 
 - 목적 : 관리자 인터페이스에서 데이터 관리를 쉽게 하기 위해
+
+## .gitignore에 image 폴더 추가
+```python
+# image 폴더를 git으로 관리하지 않음.
+image/
+```
+
+## 
