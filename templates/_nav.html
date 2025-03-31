@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             {% if user.is_authenticated %}
-                <a class="nav-link" href="#">Create</a>
+                <a class="nav-link" href="{% url 'posts:create' %}">Create</a>
                 <a class="nav-link" href="#">logout</a>
                 <a class="nav-link disabled" href="">{{user}}</a>
 
