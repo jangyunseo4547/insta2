@@ -14,4 +14,5 @@
 image/
 ```
 
-## 
+## 새로운 라이브러리 생성 시 requirements.txt 추가
+`pip freeze > requirements.txt`
