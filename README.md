@@ -16,3 +16,12 @@ image/
 
 ## 새로운 라이브러리 생성 시 requirements.txt 추가
 `pip freeze > requirements.txt`
+
+## media 설정
+```python
+# 업로드한 사진을 저장한 위치 (실제 폴더 경로)
+ MEDIA_ROOT = BASE_DIR / 'image'
+ 
+ # 미디어 경로를 처리할 URL
+ MEDIA_URL = '/image/'
+ ```
