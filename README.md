@@ -25,3 +25,4 @@ image/
  # 미디어 경로를 처리할 URL
  MEDIA_URL = '/media/'
  ```
+ - model을 수정해도 migrations 다시 해줘야 함.
