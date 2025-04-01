@@ -11,3 +11,10 @@ class User(AbstractUser):
         crop=['middle', 'center'],
         upload_to='profile'
     )
+# symmetrical=False : 비대칭구조 (1-> 2 팔로우 / 2 ->1 팔로우는 다르기 때문)
+    followings = models.ManyToManyField(
+        'self', 
+        related_name='followers',
+        symmetrical=False
+    )
+
